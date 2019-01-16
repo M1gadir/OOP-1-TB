@@ -3,6 +3,7 @@ package Television;
 public class Output {
 public static void main (String [] args) {
 	Input input = new Input() ;
+
 	input.volTage = 60 ;
 	input.buttonPower = true ;
 	input.disPlay = true ;
@@ -10,7 +11,6 @@ public static void main (String [] args) {
 	input.HDMI = true ;
 	input.VGA = true ;
 	input.indicatorLed = true ;
-	input.Brand = "" ;
 	
 	/* jadi di sini itu sebagai
 	 *  memproses sebuah function yang kita awal buat jadi 
